@@ -1,0 +1,14 @@
+class objectcounter:
+    numberofobjects=0
+
+    def __init__(self):
+        objectcounter.numberofobjects+=1
+
+    @staticmethod                    #we need to mark a static method with decorator called static method
+    def displaycount():
+        print(objectcounter.numberofobjects)
+
+
+o1=objectcounter()
+o2=objectcounter()
+objectcounter.displaycount()
