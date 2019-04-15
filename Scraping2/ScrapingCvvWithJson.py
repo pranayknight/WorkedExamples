@@ -52,6 +52,7 @@ for data in lst:
     conn.commit()
 
 # or this way  cursor.executemany(""INSERT INTO CVVdata(Bin,Name,city,zipcode,State,Price,Bank,exp,country) VALUES (?,?,?,?,?,?,?,?,?)", full_list)
+# conn.commit()
 cursor.close()
 conn.close()
 

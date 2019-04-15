@@ -7,6 +7,6 @@ difficulty = int(input("Enter any number from 1 to 3 to set the level of difficu
 
 potion_health = int(random.randint(25, 50) / difficulty)
 
-health = health = health + potion_health
+health = health + potion_health
 
 print(health)
